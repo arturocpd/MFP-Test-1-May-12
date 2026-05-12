@@ -201,23 +201,6 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>PSSExpCloudMapBenefitAssessmentResponseToPDF8644309008469264</globalKey>
-        <inputFieldName>Income:PSS_BM_v3_HouseholdIncomeDetails|6:PSS_BM_v3_IncomeNextMonth</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>PSSExpCloudMapBenefitAssessmentResponseToPDF</name>
-        <omniDataTransformation>0kdHu000004vBPE</omniDataTransformation>
-        <omniDataTransformationId>0kdHu000004vBPE</omniDataTransformationId>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldFormat>Currency</outputFieldFormat>
-        <outputFieldName>IncomeNextMonthRow6</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
         <globalKey>PSSExpCloudMapBenefitAssessmentResponseToPDF22521847735688638</globalKey>
         <inputFieldName>HouseholdInformation:PSS_BM_v3_HouseholdMemberDetails|5:PSS_BM_v3_Age</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
@@ -235,15 +218,16 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>PSSExpCloudMapBenefitAssessmentResponseToPDF7813419360644038</globalKey>
-        <inputFieldName>HousingAndHeating:HeatingDetails:SecondaryHeatSource:PSS_BM_v3_SecondaryHeatType</inputFieldName>
+        <globalKey>PSSExpCloudMapBenefitAssessmentResponseToPDF8644309008469264</globalKey>
+        <inputFieldName>Income:PSS_BM_v3_HouseholdIncomeDetails|6:PSS_BM_v3_IncomeNextMonth</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>PSSExpCloudMapBenefitAssessmentResponseToPDF</name>
-        <omniDataTransformation>0kdHu000004vBPD</omniDataTransformation>
-        <omniDataTransformationId>0kdHu000004vBPD</omniDataTransformationId>
+        <omniDataTransformation>0kdHu000004vBPE</omniDataTransformation>
+        <omniDataTransformationId>0kdHu000004vBPE</omniDataTransformationId>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>SecondaryHeatType</outputFieldName>
+        <outputFieldFormat>Currency</outputFieldFormat>
+        <outputFieldName>IncomeNextMonthRow6</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -270,15 +254,15 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>PSSExpCloudMapBenefitAssessmentResponseToPDF49206128403583027</globalKey>
-        <inputFieldName>HouseholdInformation:PSS_BM_v3_HouseholdMemberDetails|7:PSS_BM_v3_Relationship</inputFieldName>
+        <globalKey>PSSExpCloudMapBenefitAssessmentResponseToPDF7813419360644038</globalKey>
+        <inputFieldName>HousingAndHeating:HeatingDetails:SecondaryHeatSource:PSS_BM_v3_SecondaryHeatType</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>PSSExpCloudMapBenefitAssessmentResponseToPDF</name>
-        <omniDataTransformation>0kdHu000004vBPC</omniDataTransformation>
-        <omniDataTransformationId>0kdHu000004vBPC</omniDataTransformationId>
+        <omniDataTransformation>0kdHu000004vBPD</omniDataTransformation>
+        <omniDataTransformationId>0kdHu000004vBPD</omniDataTransformationId>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>RelationshipRow7</outputFieldName>
+        <outputFieldName>SecondaryHeatType</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -295,6 +279,22 @@
         <omniDataTransformationId>0kdHu000004vBOb</omniDataTransformationId>
         <outputCreationSequence>1.0</outputCreationSequence>
         <outputFieldName>PrimaryHeatingSupplierName</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpCloudMapBenefitAssessmentResponseToPDF49206128403583027</globalKey>
+        <inputFieldName>HouseholdInformation:PSS_BM_v3_HouseholdMemberDetails|7:PSS_BM_v3_Relationship</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>PSSExpCloudMapBenefitAssessmentResponseToPDF</name>
+        <omniDataTransformation>0kdHu000004vBPC</omniDataTransformation>
+        <omniDataTransformationId>0kdHu000004vBPC</omniDataTransformationId>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>RelationshipRow7</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>

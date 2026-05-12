@@ -906,6 +906,22 @@
         <upsertKey>false</upsertKey>
     </omniDataTransformItem>
     <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>QuickBuildMigrateInspectionTemplate6152388408879161</globalKey>
+        <inputFieldName>DeserializedFileContent:AssessmentTaskDefinition:Name</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>QuickBuildMigrateInspectionTemplate</name>
+        <omniDataTransformation>0kdHu000004vBYF</omniDataTransformation>
+        <omniDataTransformationId>0kdHu000004vBYF</omniDataTransformationId>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputFieldName>Name</outputFieldName>
+        <outputObjectName>AssessmentTaskDefinition</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>true</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
         <disabled>true</disabled>
         <filterGroup>0.0</filterGroup>
         <filterOperator>=</filterOperator>
@@ -925,18 +941,18 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>QuickBuildMigrateInspectionTemplate6152388408879161</globalKey>
-        <inputFieldName>DeserializedFileContent:AssessmentTaskDefinition:Name</inputFieldName>
+        <globalKey>QuickBuildMigrateInspectionTemplate5890177609441536</globalKey>
+        <inputFieldName>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItem:DisplayOrder</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>QuickBuildMigrateInspectionTemplate</name>
-        <omniDataTransformation>0kdHu000004vBYF</omniDataTransformation>
-        <omniDataTransformationId>0kdHu000004vBYF</omniDataTransformationId>
-        <outputCreationSequence>4.0</outputCreationSequence>
-        <outputFieldName>Name</outputFieldName>
-        <outputObjectName>AssessmentTaskDefinition</outputObjectName>
+        <omniDataTransformation>0kdHu000004vBYE</omniDataTransformation>
+        <omniDataTransformationId>0kdHu000004vBYE</omniDataTransformationId>
+        <outputCreationSequence>7.0</outputCreationSequence>
+        <outputFieldName>DisplayOrder</outputFieldName>
+        <outputObjectName>ActionPlanTemplateItem</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>true</upsertKey>
+        <upsertKey>false</upsertKey>
     </omniDataTransformItem>
     <omniDataTransformItem>
         <disabled>false</disabled>
@@ -957,15 +973,15 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>QuickBuildMigrateInspectionTemplate5890177609441536</globalKey>
-        <inputFieldName>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItem:DisplayOrder</inputFieldName>
+        <globalKey>QuickBuildMigrateInspectionTemplate1802247023279855</globalKey>
+        <inputFieldName>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItem:Name</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>QuickBuildMigrateInspectionTemplate</name>
-        <omniDataTransformation>0kdHu000004vBYE</omniDataTransformation>
-        <omniDataTransformationId>0kdHu000004vBYE</omniDataTransformationId>
+        <omniDataTransformation>0kdHu000004vBYD</omniDataTransformation>
+        <omniDataTransformationId>0kdHu000004vBYD</omniDataTransformationId>
         <outputCreationSequence>7.0</outputCreationSequence>
-        <outputFieldName>DisplayOrder</outputFieldName>
+        <outputFieldName>Name</outputFieldName>
         <outputObjectName>ActionPlanTemplateItem</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -989,15 +1005,15 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>QuickBuildMigrateInspectionTemplate1802247023279855</globalKey>
-        <inputFieldName>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItem:Name</inputFieldName>
+        <globalKey>QuickBuildMigrateInspectionTemplate5806569067341969</globalKey>
+        <inputFieldName>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItem:ItemEntityType</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>QuickBuildMigrateInspectionTemplate</name>
-        <omniDataTransformation>0kdHu000004vBYD</omniDataTransformation>
-        <omniDataTransformationId>0kdHu000004vBYD</omniDataTransformationId>
+        <omniDataTransformation>0kdHu000004vBYC</omniDataTransformation>
+        <omniDataTransformationId>0kdHu000004vBYC</omniDataTransformationId>
         <outputCreationSequence>7.0</outputCreationSequence>
-        <outputFieldName>Name</outputFieldName>
+        <outputFieldName>ItemEntityType</outputFieldName>
         <outputObjectName>ActionPlanTemplateItem</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -1017,22 +1033,6 @@
         <outputObjectName>ActionPlanTemplate</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>true</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>QuickBuildMigrateInspectionTemplate5806569067341969</globalKey>
-        <inputFieldName>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItem:ItemEntityType</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>QuickBuildMigrateInspectionTemplate</name>
-        <omniDataTransformation>0kdHu000004vBYC</omniDataTransformation>
-        <omniDataTransformationId>0kdHu000004vBYC</omniDataTransformationId>
-        <outputCreationSequence>7.0</outputCreationSequence>
-        <outputFieldName>ItemEntityType</outputFieldName>
-        <outputObjectName>ActionPlanTemplateItem</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
     </omniDataTransformItem>
     <omniDataTransformItem>
         <disabled>true</disabled>

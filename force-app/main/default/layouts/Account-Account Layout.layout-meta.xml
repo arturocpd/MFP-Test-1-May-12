@@ -262,11 +262,6 @@
             <sortOrder>30</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>ChangeOwnerOne</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>29</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
             <actionName>Delete</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>22</sortOrder>
@@ -280,6 +275,11 @@
             <actionName>Share</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>42</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>ChangeOwnerOne</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>29</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>CreateMyList</actionName>
@@ -362,11 +362,6 @@
             <sortOrder>35</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>ChangeTargetAssignee</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>26</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
             <actionName>BrowseCatalogs</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>36</sortOrder>
@@ -380,6 +375,11 @@
             <actionName>SmsHighlightAction</actionName>
             <actionType>ProductivityAction</actionType>
             <sortOrder>45</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>ChangeTargetAssignee</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>26</sortOrder>
         </platformActionListItems>
     </platformActionList>
     <quickActionList>

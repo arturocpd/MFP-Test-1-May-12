@@ -539,22 +539,6 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>PSSAssignGenericNamesToResponseNodeCustom7188</globalKey>
-        <inputFieldName>PSS_BM_v5_PrimaryHeatingBillFile</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>PSSAssignGenericNamesToResponseNode1</name>
-        <omniDataTransformation>0kdHu000004vBhQ</omniDataTransformation>
-        <omniDataTransformationId>0kdHu000004vBhQ</omniDataTransformationId>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>GenericData:PrimaryHeatingBillFile</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
         <globalKey>PSSAssignGenericNamesToResponseNodeCustom5215</globalKey>
         <inputFieldName>PSS_BM_v5_HouseholdIncomeDetails:PSS_BM_v5_IncomeProofDocument</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
@@ -564,6 +548,22 @@
         <omniDataTransformationId>0kdHu000004vBgp</omniDataTransformationId>
         <outputCreationSequence>1.0</outputCreationSequence>
         <outputFieldName>GenericData:HouseholdIncomeDetails:IncomeProofDocument</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSAssignGenericNamesToResponseNodeCustom7188</globalKey>
+        <inputFieldName>PSS_BM_v5_PrimaryHeatingBillFile</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>PSSAssignGenericNamesToResponseNode1</name>
+        <omniDataTransformation>0kdHu000004vBhQ</omniDataTransformation>
+        <omniDataTransformationId>0kdHu000004vBhQ</omniDataTransformationId>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>GenericData:PrimaryHeatingBillFile</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>

@@ -680,11 +680,6 @@
             <sourceName>Junction_Job_Position_Recruitment_Requisition</sourceName>
         </fields>
         <fields>
-            <alias>RR_Id</alias>
-            <sourceFieldName>RR_Id</sourceFieldName>
-            <sourceName>Junction_Job_Position_Recruitment_Requisition</sourceName>
-        </fields>
-        <fields>
             <alias>RP_Name</alias>
             <sourceFieldName>RP_Name</sourceFieldName>
             <sourceName>Junction_Job_Position_Recruitment_Requisition</sourceName>
@@ -697,6 +692,11 @@
         <fields>
             <alias>RR_ExternalVacancyTitle</alias>
             <sourceFieldName>RR_ExternalVacancyTitle</sourceFieldName>
+            <sourceName>Junction_Job_Position_Recruitment_Requisition</sourceName>
+        </fields>
+        <fields>
+            <alias>RR_Id</alias>
+            <sourceFieldName>RR_Id</sourceFieldName>
             <sourceName>Junction_Job_Position_Recruitment_Requisition</sourceName>
         </fields>
         <fields>

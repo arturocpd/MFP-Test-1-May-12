@@ -847,8 +847,18 @@
             <sourceName>Benefit_Provider_Create_Unique_Key</sourceName>
         </fields>
         <fields>
+            <alias>BPSF_Id</alias>
+            <sourceFieldName>BPSF_Id</sourceFieldName>
+            <sourceName>Benefit_Provider_Searchable_Fields</sourceName>
+        </fields>
+        <fields>
             <alias>CS_Id</alias>
             <sourceFieldName>CS_Id</sourceFieldName>
+            <sourceName>Benefit_Provider_Create_Unique_Key</sourceName>
+        </fields>
+        <fields>
+            <alias>CS_Name</alias>
+            <sourceFieldName>CS_Name</sourceFieldName>
             <sourceName>Benefit_Provider_Create_Unique_Key</sourceName>
         </fields>
         <fields>
@@ -874,16 +884,6 @@
         <fields>
             <alias>HCF_ShippingCountry</alias>
             <sourceFieldName>HCF_ShippingCountry</sourceFieldName>
-            <sourceName>Benefit_Provider_Create_Unique_Key</sourceName>
-        </fields>
-        <fields>
-            <alias>BPSF_Id</alias>
-            <sourceFieldName>BPSF_Id</sourceFieldName>
-            <sourceName>Benefit_Provider_Searchable_Fields</sourceName>
-        </fields>
-        <fields>
-            <alias>CS_Name</alias>
-            <sourceFieldName>CS_Name</sourceFieldName>
             <sourceName>Benefit_Provider_Create_Unique_Key</sourceName>
         </fields>
         <fields>

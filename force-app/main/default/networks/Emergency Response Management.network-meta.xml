@@ -125,6 +125,10 @@
             <points>1</points>
         </pointsRule>
         <pointsRule>
+            <eventType>FeedItemReceiveAMention</eventType>
+            <points>5</points>
+        </pointsRule>
+        <pointsRule>
             <eventType>FeedItemWriteAComment</eventType>
             <points>1</points>
         </pointsRule>
@@ -135,10 +139,6 @@
         <pointsRule>
             <eventType>FeedItemYourAnswerMarkedBest</eventType>
             <points>20</points>
-        </pointsRule>
-        <pointsRule>
-            <eventType>FeedItemReceiveAMention</eventType>
-            <points>5</points>
         </pointsRule>
         <pointsRule>
             <eventType>FeedItemMentionSomeone</eventType>
