@@ -1,0 +1,33 @@
+{
+  "appPageId" : "2fba1bae-ca91-435f-9f38-bf4a0457bf25",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "84018c3d-ed73-457b-820f-6616ade22150",
+  "label" : "Payment Cart",
+  "regions" : [ {
+    "id" : "17ebe0d1-f3c0-4356-aba1-d53da65a2891",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "includeEnterAmount" : true
+      },
+      "componentName" : "pss_payment:paymentCart",
+      "id" : "e45dc443-d072-4afc-baea-819b90082396",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5c9a3106-4f7c-4f77-a0f7-0f97c2e359de",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "98fa052c-5422-4fba-8969-446af5ca1602",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "payment-cart"
+}

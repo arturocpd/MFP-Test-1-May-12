@@ -1,0 +1,180 @@
+{
+  "appPageId" : "b97b5bc1-b612-4339-b95e-16ab9ce2aff7",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "55cd51e7-3d37-41a5-b2e9-7a6aa21b91a1",
+  "label" : "Applications",
+  "regions" : [ {
+    "id" : "fbc95dbe-393c-422d-acce-926e896cf40e",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "0e8561ec-fd1a-4a75-b075-28cdade462d3",
+          "activeTab" : "draftApps",
+          "tabs" : [ {
+            "UUID" : "f8a414a6-d37d-4f9c-ac09-511d6df8244f",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "enableInlineEdit" : "false",
+                "filterName" : "ActiveApplicationForms",
+                "layout" : "FULL",
+                "scope" : "ApplicationForm",
+                "showActionBar" : "false",
+                "showChartsPanel" : "false",
+                "showPinnedList" : "false"
+              },
+              "fqn" : "forceCommunity:objectHome"
+            } ],
+            "tabKey" : "activeApps",
+            "tabName" : "Active Applications"
+          }, {
+            "UUID" : "da739f3a-95de-407b-9af1-5a28226b4867",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "enableInlineEdit" : "false",
+                "filterName" : "ClosedApplicationForms",
+                "layout" : "FULL",
+                "scope" : "ApplicationForm",
+                "showActionBar" : "false",
+                "showChartsPanel" : "false",
+                "showPinnedList" : "false"
+              },
+              "fqn" : "forceCommunity:objectHome"
+            } ],
+            "tabKey" : "closedApps",
+            "tabName" : "Closed Applications"
+          }, {
+            "UUID" : "5f65cc6e-cf47-41b3-bedc-ad72727a71e7",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "enableInlineEdit" : "false",
+                "filterName" : "DraftApplicationForms",
+                "layout" : "FULL",
+                "scope" : "ApplicationForm",
+                "showActionBar" : "false",
+                "showChartsPanel" : "false",
+                "showPinnedList" : "false"
+              },
+              "fqn" : "forceCommunity:objectHome"
+            } ],
+            "tabKey" : "draftApps",
+            "tabName" : "Draft Applications"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabLayout",
+      "id" : "0e8561ec-fd1a-4a75-b075-28cdade462d3",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : false,
+            "filterName" : "ActiveApplicationForms",
+            "layout" : "FULL",
+            "pageSize" : 25,
+            "scope" : "ApplicationForm",
+            "showActionBar" : false,
+            "showChartsPanel" : false,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : false,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "439c6e71-dfa5-43c8-89f5-7ca503e00b7b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f8a414a6-d37d-4f9c-ac09-511d6df8244f",
+        "regionLabel" : "Active Applications",
+        "regionName" : "activeApps",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : false,
+            "filterName" : "ClosedApplicationForms",
+            "layout" : "FULL",
+            "pageSize" : 25,
+            "scope" : "ApplicationForm",
+            "showActionBar" : false,
+            "showChartsPanel" : false,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : false,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "82391772-802b-43a9-a2af-d3ca845f53c4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "da739f3a-95de-407b-9af1-5a28226b4867",
+        "regionLabel" : "Closed Applications",
+        "regionName" : "closedApps",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : false,
+            "filterName" : "DraftApplicationForms",
+            "layout" : "FULL",
+            "pageSize" : 25,
+            "scope" : "ApplicationForm",
+            "showActionBar" : false,
+            "showChartsPanel" : false,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : false,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "3331c597-bf43-4355-aab0-8d9a06aa99fa",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "5f65cc6e-cf47-41b3-bedc-ad72727a71e7",
+        "regionLabel" : "Draft Applications",
+        "regionName" : "draftApps",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "21714aad-b2c4-454e-b849-65dd76716b96",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "ec28fa7e-ff05-4fa6-a80a-1bc353915d65",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "applications"
+}

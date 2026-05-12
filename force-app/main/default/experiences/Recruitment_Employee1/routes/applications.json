@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "55cd51e7-3d37-41a5-b2e9-7a6aa21b91a1",
+  "appPageId" : "b97b5bc1-b612-4339-b95e-16ab9ce2aff7",
+  "configurationTags" : [ ],
+  "devName" : "Recruitment_Emp_Applications",
+  "id" : "7144704b-c40c-4c37-a39c-cba0c8bb262b",
+  "label" : "Applications",
+  "pageAccess" : "UseParent",
+  "routeType" : "applications",
+  "type" : "route",
+  "urlPrefix" : "applications"
+}

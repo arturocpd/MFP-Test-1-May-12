@@ -1,0 +1,33 @@
+{
+  "appPageId" : "b97b5bc1-b612-4339-b95e-16ab9ce2aff7",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "2fc42c4d-8368-40e6-bc9c-a1b7c05d2a39",
+  "label" : "Job Search",
+  "regions" : [ {
+    "id" : "1c92ec6b-455f-42ce-b0aa-b0bca0609e87",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "searchConfigs" : "[\"Job_Posting_Search\"]"
+      },
+      "componentName" : "industries_common:criteriaBasedSearchAndFilterCommunity",
+      "id" : "199efe54-2609-43fa-a23f-c8e4b29798cc",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "14ed9780-1c05-4480-9b58-58382f7c96ec",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "a38a9d11-506b-4a17-93ef-0ec9ec210789",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "find-jobs"
+}

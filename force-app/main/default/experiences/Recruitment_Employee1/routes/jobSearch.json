@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "2fc42c4d-8368-40e6-bc9c-a1b7c05d2a39",
+  "appPageId" : "b97b5bc1-b612-4339-b95e-16ab9ce2aff7",
+  "configurationTags" : [ ],
+  "devName" : "Recruitment_Find_Jobs",
+  "id" : "b74a16af-f033-4f83-a2c6-bb4ed5ad97ac",
+  "label" : "Job Search",
+  "pageAccess" : "UseParent",
+  "routeType" : "find-jobs",
+  "type" : "route",
+  "urlPrefix" : "find-jobs"
+}

@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "84018c3d-ed73-457b-820f-6616ade22150",
+  "appPageId" : "2fba1bae-ca91-435f-9f38-bf4a0457bf25",
+  "configurationTags" : [ ],
+  "devName" : "View_Payment_Cart",
+  "id" : "2889fe0b-b0c8-4739-a23b-17f5a03a2296",
+  "label" : "Payment Cart",
+  "pageAccess" : "UseParent",
+  "routeType" : "payment-cart",
+  "type" : "route",
+  "urlPrefix" : "payment-cart"
+}
